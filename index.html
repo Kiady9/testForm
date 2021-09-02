@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+    <div class="containerform">
+        <div class="form">
+            <div class="row formposition">
+                <div class="col">
+                    <form method="POST" class="styleform1" action="contact-form-handler.php"> 
+                        <label class="firstnametext" for="fname">First name:</label><br>
+                        <input class="firstnamebox" type="text" id="fname" name="fname" placeholder="Insert your first name here"><br>
+                        <label class="lastnametext" for="lname">Last name:</label><br>
+                        <input class="lastnamebox" type="text" id="lname" name="lname" placeholder="Insert your last name here"><br>
+                        <label class="mailtext" for="mail">Your Email:</label><br>
+                        <input class="mailbox" type="text" id="mail" name="mail" placeholder="Insert your mail adress here"><br>
+                            
+                        <label class="messagetext" for="message">Your message:</label><br>
+                    
+                        <textarea class="messagebox" type="text" id="message" name="message" placeholder="Type your message here"></textarea><br>
+                        <input class="submit_btn" type="submit" value="Submit">
+                        
+                        <div class="positioncheckbox">
+                        <input type="checkbox" id="remember" name="remember" value="remember" checked>
+                        <label for="vehicle1"> Remember me</label><br>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> I have a bike</label><br>
+                        <p>Choose your region</p>
+                        <input type="radio" id="region" name="country" value="NAmerica" checked/>
+                        <label for="region">North America</label><br>
+                        <input type="radio" id="region" name="country" value="Europe">
+                        <label for="region">Europe</label><br>
+                        <input type="radio" id="region" name="country" value="Asia">
+                        <label for="region">Asia</label><br>
+                        <input type="radio" id="region" name="country" value="Africa">
+                        <label for="region">Africa</label><br>
+                        </div>
+                      </form> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
